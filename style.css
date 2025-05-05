@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 52px;
+    height: 52px;
+    margin: 100px 0 25px 0;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif, 'Roboto';
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.text-medium {
+    font-family: 'Poppins', sans-serif, 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color:#6c727f;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.form {
+    background-color: #FFFFFF;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+
+input[placeholder] {
+    width: 500px;
+    margin-top: 20px;
+    font-weight: 500;
+    background-color: #E4E7EB;
+    font-family: 'Poppins', sans-serif, 'Roboto';
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #6c727f;
+}
+
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #284BCE;
+    width: 500px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+    border: none;
+}
+
+.info-text {
+    font-family: 'Poppins', sans-serif, 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:#394150;
+}
+
+@media (max-width: 1024px) {
+    .text-medium {
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .form {
+        width: 90%;
+    }
+
+    input[placeholder],
+    button {
+        width: 550px;
+        padding: 24px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+}
+
+/* Mobile (max-width: 640px) */
+@media (max-width: 640px) {
+    img {
+        width: 40px;
+        height: 40px;
+        margin: 60px 0 20px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .text-medium {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+
+    input[placeholder],
+    button {
+        width: 550px;
+        padding: 24px;
+        font-size: 14px;
+    }
+
+    .info-text {
+        font-size: 12px;
+    }
+
+
+}
